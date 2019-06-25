@@ -1,0 +1,30 @@
+{
+  "name": "@zbm1/namespace",
+  "version": "0.1.0",
+  "description": "namespace get && set value 命名空间取值赋值",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbm2001/namespace.git"
+  },
+  "keywords": [
+    "namespace",
+    "get",
+    "set",
+    "value",
+    "global",
+    "命名空间",
+    "取值",
+    "赋值",
+    "全局"
+  ],
+  "author": "zbm2001@aliyun.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zbm2001/namespace/issues"
+  },
+  "homepage": "https://github.com/zbm2001/namespace#readme"
+}

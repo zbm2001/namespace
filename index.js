@@ -1,5 +1,4 @@
-
-const global = new Function('return this')()
+require('@zbm1/global-this')
 
 /**
  * namespace set or get value
@@ -12,7 +11,7 @@ module.exports = function namespace (root, sNamespace, variable) {
   if (typeof root === 'string') {
     variable = sNamespace
     sNamespace = root
-    root = global
+    root = globalThis
   }
 
   if (!root || typeof sNamespace !== 'string') {
@@ -39,5 +38,3 @@ module.exports = function namespace (root, sNamespace, variable) {
   }
   return (root[namespaces[l]] = variable)
 }
-
-module.exports.global = global

@@ -1,6 +1,6 @@
 {
   "name": "@zbm1/namespace",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "namespace get && set value 命名空间取值赋值",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/zbm2001/namespace/issues"
   },
-  "homepage": "https://github.com/zbm2001/namespace#readme"
+  "homepage": "https://github.com/zbm2001/namespace#readme",
+  "dependencies": {
+    "@zbm1/global-this": "^0.4.5"
+  }
 }
